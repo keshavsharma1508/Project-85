@@ -75,7 +75,7 @@ function up()
 		greencar_y -=10;
         console.log("When up arrow is pressed = " + greencar_x + " - " + greencar_y );
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
 
@@ -86,7 +86,7 @@ function down()
         greencar_y +=10;
         console.log("When down arrow is pressed = " + greencar_x + " - " + greencar_y );
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
 
@@ -97,7 +97,7 @@ function left()
 		greencar_x -=10;
         console.log("When left arrow is pressed = " +  greencar_x + " - " +  greencar_y );
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
 
@@ -108,6 +108,6 @@ function right()
 		greencar_x +=10;
         console.log("When right arrow is pressed = " + greencar_x + " - " + greencar_y );
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
